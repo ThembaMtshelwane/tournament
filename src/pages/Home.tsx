@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <section className="bg-[#DDE9F1] h-screen text-[#031E51] p-4">
+    <section className=" h-screen text-[#031E51] p-4">
       <div className=" h-full flex flex-col items-center justify-center gap-4">
         <h1 className="text-4xl font-extrabold">TOURNAMANIA</h1>
         <p>The world of champions</p>
