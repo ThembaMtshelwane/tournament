@@ -7,7 +7,13 @@ type Props = {
 const Modal = ({ toggle, setToggle }: Props) => {
   return (
     <>
-      {toggle ? (
+      <button
+        className="bg-[#031E51] rounded-lg p-4 text-[#DDE9F1]"
+        onClick={() => setToggle(true)}
+      >
+        Add Tournament
+      </button>
+      {toggle && (
         <>
           <section className="inset-0 text-[#031E51] p-4 bg-black opacity-75 fixed"></section>
           <div className="border flex flex-col gap-4 items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-white px-6 py-8 rounded-lg shadow-lg w-full max-w-[450px]">
@@ -64,8 +70,6 @@ const Modal = ({ toggle, setToggle }: Props) => {
             </form>
           </div>
         </>
-      ) : (
-        <p onClick={() => setToggle(true)}>Modal </p>
       )}
     </>
   );
