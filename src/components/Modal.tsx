@@ -8,7 +8,7 @@ const Modal = ({ toggle, setToggle }: Props) => {
   return (
     <>
       <button
-        className="bg-secondary rounded-lg p-4 text-tertiary"
+        className="bg-secondary rounded-lg p-4 text-[#dde9f1]"
         onClick={() => setToggle(true)}
       >
         Add Tournament
