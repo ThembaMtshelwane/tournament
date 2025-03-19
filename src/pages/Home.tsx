@@ -25,7 +25,7 @@ const Home = () => {
               id="password"
             />
           </div>
-          <button className="bg-[#031E51] rounded-lg p-4 text-[#DDE9F1] ">
+          <button className="bg- rounded-lg p-4 text-tertiary ">
             Register
           </button>
         </form>

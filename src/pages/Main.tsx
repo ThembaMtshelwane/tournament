@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Modal from "../components/Modal";
+import PlayerTag from "../components/PlayerTag";
 
 const Main = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,14 +12,12 @@ const Main = () => {
         <div className=" flex flex-col gap-2 px-2">
           <h3>Players</h3>
           <div className="flex gap-4 flex-wrap">
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
-            <div className=" p-2 bg-[#DDE9F1] w-fit rounded-lg">Player 1</div>
+            <PlayerTag name="Player 1" />
+            <PlayerTag name="Player 1" />
+            <PlayerTag name="Player 1" />
+            <PlayerTag name="Player 1" />
+            <PlayerTag name="Player 1" />
+            <PlayerTag name="Player 1" />
           </div>
         </div>
       </div>
